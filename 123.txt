@@ -1,0 +1,28 @@
+::1::
+mkdir Likhachev
+mkdir First Second
+cd First
+cat> coffee.txt
+"Приготовить кофе"
+cat> find.txt
+"описание команды find"
+cp coffee.txt find.txt ../Second
+cd ../Second
+cat> coffee.txt find.txt > total.txt
+rm ../First/coffee.txt ../First/find.txt
+
+::2::
+echo copy and delete file
+mkdir /home/squonserq/Docs/Лихачев/DIR1 /home/squonserq/Docs/Лихачев/DIR1/DIR2
+cat /home/squonserq/Docs/Лихачев/1.txt > /home/squonserq/Docs/Лихачев/DIR1/DIR2/1NEW.txt
+rm /home/squonserq/Docs/Лихачев/1.txt
+echo file deleted and copied
+read
+
+
+
+
+
+
+
+
